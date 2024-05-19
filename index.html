@@ -10,12 +10,126 @@
     <header>
         <p> Test </h4>
     </header>
-     <a href="https://gamma.app">Powerpoint AI</a>
+
+</body>
+</html>
+<p> Wenn eine Website nicht funktioniert oder du eine dns sperre besitzt,
+</p>
+<p>installiere <a href="https://www.touchvpn.net/platform.html">TouchVPN</a> und starte denn VPN und starte die seite nocheinmal
+</p>
+
+<main>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dropdown Menüs mit Action-Buttons</title>
+    <script>
+        function showButton(dropdownId, buttonId) {
+            var select = document.getElementById(dropdownId);
+            var selectedValue = select.options[select.selectedIndex].value;
+            var actionButton = document.getElementById(buttonId);
+
+            if (selectedValue !== "default") {
+                actionButton.style.display = "inline";
+            } else {
+                actionButton.style.display = "none";
+            }
+        }
+
+        function performAction1() {
+            var select = document.getElementById("options1");
+            var selectedValue = select.options[select.selectedIndex].value;
+
+            switch (selectedValue) {
+                case "option1":
+                    window.location.href = "https://gamma.app";
+                    break;
+                   
+                case "option2":
+                    window.location.href = "https://chat.openai.com";
+                    break;
+                case "option3":
+                    window.location.href = "https://chatopenai.de/";
+                    break;
+                case "option4":
+                    window.location.href = "https://www.deepl.com/write";
+                    break;
+                case "option5":
+                    window.location.href = "test.jpg";
+                    break;
+                case "option6":
+                    window.location.href = "test.jpg";
+                    break;
+                default:
+                    alert("Bitte eine gültige Option auswählen.");
+            }
+        }
+
+        function performAction2() {
+            var select = document.getElementById("options2");
+            var selectedValue = select.options[select.selectedIndex].value;
+
+            switch (selectedValue) {
+                case "option1":
+                   window.location.href = "https://eaglercraft.com/mc/1.8.8/";
+                    break;
+                case "option2":
+                    window.location.href = "https://bward2.github.io/pacman-js/";
+                    break;
+                case "option3":
+                    window.location.href = "https://eaglercraft.com/mc/1.5.2/";
+                    break;
+                case "option4":
+                    window.location.href = "https://eaglercraft.com/mc/b1.3/";
+                    break;
+                case "option5":
+                    window.location.href = "https://eaglercraft.com/mc/a1.2.6/";
+                    break;
+                case "option6":
+                    window.location.href = "https://poki.de";
+                    break;
+                default:
+                    alert("Bitte eine gültige Option auswählen.");
+            }
+        }
+    </script>
+</head>
+<body>
+    <div>
+        <label for="options1">Nützliches:</label>
+        <select id="options1" onchange="showButton('options1', 'actionButton1')">
+            <option value="default">Bitte auswählen</option>
+            <option value="option1">Gamma (Powerpoint AI)</option>
+            <option value="option2">Chatgpt</option>
+            <option value="option3">Chatgpt (ohne acc)</option>
+            <option value="option4">Deepl Write</option>
+            <option value="option5">Option 5</option>
+            <option value="option6">Option 6</option>
+        </select>
+        <button id="actionButton1" style="display:none;" onclick="performAction1()">Run</button>
+    </div>
 <p>
 </p>
+    <div>
+        <label for="options2">Spiele:</label>
+        <select id="options2" onchange="showButton('options2', 'actionButton2')">
+        <option value="default">Bitte auswählen</option>
+        <option value="option1">Minecraft 1.8.8</option>
+        <option value="option2">Pacman</option>
+        <option value="option3">Minecraft r1.5.2</option>
+        <option value="option4">Minecraft b1.3</option>
+        <option value="option5">Minecraft a1.2.6</option>
+        <option value="option6">Poki.de</option>
+        </select>
+        <button id="actionButton2" style="display:none;" onclick="performAction2()">Run</button>
+    </div>
+</body>
+</html>
+</main>
     <nav>
-   
-
+<p>
+</p>
      <button onClick="window.location.reload();">Refresh Page</button>
   
     </nav>
@@ -23,21 +137,19 @@
 <p>
 </p>
     </main>
-    <form action ="https://eaglercraft.com/mc/1.8.8/">
-        <input type="submit" value="Spiel Minecraft :)" />
-    </form>
     <p> 
 
 <img src="test.jpg" alt="kanye minion" />
 
 </p>
-    <main>
-        <form>
-            <p> Test </p>
-            <input type="Username"> 
 <p>
 </p>
-<button type="submit">Nothing</button>
+    </main>
+<p>
+</p>
+    <main>
+        <form>
+
            
             
         </form>
@@ -48,7 +160,10 @@
 fußseite
 </p>
     </footer>
-    
+
+
+
+
     <!-- Hier können zusätzliche Skripte eingebunden werden -->
 </body>
 </html>
